@@ -1,0 +1,98 @@
+/*<-------------------------------------------CSS--FOR--HEADER---------------------------------------------------------->*/
+
+.navbar, .navbar-inverse {
+	border-radius: 0;
+	border: none;
+	margin-bottom: 0;
+	
+}
+
+.nav li {
+	display: inline;
+	color: white;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+	color: #FFF315;
+	font-family: 'Playfair Display', serif;
+	font-weight: 300;
+}
+
+.navbar-inverse .navbar-nav li a:hover {
+	background-color: #444444;
+	transition: 0.7s all linear;
+	height: 100%;
+}
+	
+/*<-------------------------------------------CSS--FOR--FOOTER---------------------------------------------------------->*/
+
+
+footer div.row {
+  height: 10em;
+  display: flex;
+  align-items: center }
+div.container5 i {
+  margin: 0 }
+
+footer {
+	background-color: azure;
+	margin-bottom: 0px;
+}
+
+footer p {
+	text-align: center;
+	font-size: 10px;
+	margin-bottom: 0px;
+
+}
+footer i {
+	float: right;
+}
+
+.fa-lastfm-square:hover {
+    color: red;
+}
+.fa-linkedin-square:hover {
+	color: #4875B4;
+}
+.fa-facebook-official:hover {
+	color: #3B5998;
+}
+
+html,
+body {
+  height: 100%;
+  /* The html and body elements cannot have any padding or margin. */
+}
+
+/* Wrapper for page content to push down footer */
+#wrap {
+  min-height: 75%;
+  height: auto;
+  /* Negative indent footer by its height */
+  margin: 0 auto -60px;
+  /* Pad bottom by footer height */
+  padding: 0 0 60px;
+}
+
+/* Set the fixed height of the footer here */
+footer {
+  height: 60px;
+  background-color: azure;
+}
+
+footer div.row  {
+	background-color: azure;
+
+}
+footer p {
+	background-color: azure;
+}
+
+div.container-fluid {
+ 	margin-top: 30px;
+	 
+}
+a {
+    color: inherit;
+}
